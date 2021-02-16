@@ -103,7 +103,7 @@ def get_dates(queue, start_date='2010/07/17', end_date='2023/01/07'):
 		#page = requests.get(url, time.sleep(3),timeout=10)
 		#print(page)
 		soup = BeautifulSoup(page.content, 'html.parser')
-		values=soup.find_all('script')[5].get_text()
+		values=soup.find_all('script')[4].get_text()
 		newval=values.replace('[new Date("','')
 		newval2=newval.replace('"),',";")
 		newval3=newval2.replace('],',',')
