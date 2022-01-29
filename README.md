@@ -8,3 +8,7 @@ This repository contains the code and datasets for creating the machine learning
 4. ANN
 
 Feature selection process is based on Pearson correlation, random forest, and variance inflation factor.
+
+## New analysis is submitted to the dev and the main branches.
+
+## The original code is archived in the "research_paper" branch.
